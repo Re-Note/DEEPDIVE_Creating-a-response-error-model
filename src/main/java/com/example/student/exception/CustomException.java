@@ -18,8 +18,13 @@ public class CustomException extends RuntimeException {
 	public CustomException(ErrorCode errorCode, String message, Object data) {
 		this.errorCode = errorCode;
 		this.message = message;
-		this.data = new AbstractMap.SimpleEntry<>(data.getClass().getSimpleName(), data);
+		if (data != null) {
+			this.data = new AbstractMap.SimpleEntry<>(data.getClass().getSimpleName(), data);
+		} else {
+			this.data = null;
+		}
 	}
+
 
 	public String getMessage(){
 		// CustomException으로 넘어오는 message가 있으면 그걸 쓰고, 없으면, errorCode의 기본 메세지를 리턴한다.

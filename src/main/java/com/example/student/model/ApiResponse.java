@@ -32,7 +32,7 @@ public class ApiResponse<T> {
 
 	@Getter
 	@AllArgsConstructor
-	private static class Status {
+	public static class Status {
 		private int code;
 		private String message;
 	}
