@@ -38,4 +38,12 @@
 
 ### [구현 결과 이미지]
 
+![10결과1](https://github.com/user-attachments/assets/e26f6080-8d9d-4e08-ada7-b34951056413)
+
+![10결과3](https://github.com/user-attachments/assets/df9e3798-6b7c-4c96-b41f-63638be73efb)
+
+![10결과4](https://github.com/user-attachments/assets/eacd7fbe-4290-4bbf-8d3f-39556c3c7865)
+
+![10결과2](https://github.com/user-attachments/assets/1ec0ad76-8d19-4ed4-9d20-0f614e72a902)
+
 ---
